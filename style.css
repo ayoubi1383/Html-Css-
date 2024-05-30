@@ -1,0 +1,513 @@
+@font-face {
+    font-family: light-font;
+    src: url(./font/Poppins/PoppinsLatin-Light.ttf);
+    font-weight:lighter;
+}
+@font-face {
+    font-family: bold-font;
+    src: url(./font/Poppins/PoppinsLatin-Bold.ttf);
+    font-weight:bold;
+}
+:root{
+    --first-color: #0B0B0B ;
+    --second-color: #F0544C;
+    --therd-color: #D8D8D8;
+    --fourth-color: #62CCEE ; 
+    --fifth-color: #3F93CF ;
+    --six-color: #989898 ;
+    --seven-color:#353A3E;
+    --eight-color:#656565;
+    --nine-color:#171717;
+}
+header section{
+    display: flex;
+    background-color: var(--first-color);
+    height: 12vh;
+}
+header section .logo{
+    display: flex;
+    margin-left: 9%;
+    margin-top: 25px;
+}
+header section .logo .img{
+    width: 28px;
+    height: 28px;
+    margin-right: 11px;
+}
+header section .logo .text1{
+    font-family: bold-font;
+    font-size: 18px;
+    padding-top: 5px;
+    color: white;
+}
+header section nav ul{
+    display: flex;
+    font-family: light-font;
+    gap: 27px;
+    font-size: 15px;
+    margin-top: 25px;
+    color: var(--six-color);
+}
+header section nav ul a{
+    font-family: light-font;
+    font-size: 15px;
+    color: var(--six-color);
+}
+header section .list{
+    display: flex;
+    gap: 45px;
+    margin-left: 480px;
+    margin-top: 7px;
+}
+header section .list .f-button{
+    width: 145px;
+    padding: 9px 15px;
+    margin-top: 12px;
+    font-family: bold-font;
+    font-size: 15px;
+    color: white;
+    background-color: var(--second-color);
+    border-radius: 10px;
+}
+
+header section .list .f-button:hover{
+    background-color:#e94a55d3 ;
+    transition: 0.25s;
+}
+header section nav ul .l2{
+    text-decoration: none;
+
+}
+header section nav ul .l2:hover{
+    color: var(--fourth-color);
+    transition: 0.25s;
+}
+header section nav ul .l1{
+    color: var(--fourth-color);
+    transition: 0.25s;
+    text-decoration: none;
+}
+body .hero{
+    height:125vh;
+    background-color: var(--first-color);
+    display: flex;
+}
+body .hero .image .img1 {
+    width: 543.23px;
+    height: 543.23px;
+    padding-top: 25%;
+    padding-left: 15%;
+}
+body .hero .container {
+    padding-top: 16%;
+    margin-left:9%;
+}
+
+body .hero .container .text2{
+    margin-top: 6%;
+}
+body .hero .container .text1 .text11{
+    color: white;
+    font-family: bold-font;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.15rem;
+}
+body .hero .container .text2 .text22{
+    color: var(--six-color);
+    font-family: light-font;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: -0.05rem;
+
+}
+body .hero .container .app-apple {
+    width: 209px;
+    height: 66px;
+    margin-top: 7%;
+}
+body .hero .container .app-apple:hover{
+    opacity: 70%;
+    transition: 200ms;
+}
+body main .main1{
+    background-color: var(--therd-color);
+    display: flex;
+    height: 110vh;
+}
+body main .main1 .container {
+    margin-top: 13%;
+    margin-left: 10%;
+}
+body main .main1 .container .text11{
+    color: var(--seven-color);
+    font-family: bold-font;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.15rem;
+}
+body main .main1 .container .text2{
+    margin-top: 6%;
+}
+body main .main1 .container .text22{
+    color: var(--eight-color);
+    font-family: light-font;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: -0.05rem;
+}
+body main .main1 .container .s-button{
+    padding:14px 48px;
+    font-family: bold-font;
+    border-radius: 5px;
+    background-color: var(--fourth-color);
+    font-size: 23px;
+    text-align: center;
+    border: var(--fifth-color) solid 2px;
+    margin-top: 7%;
+    color: white;
+}
+body main .main1 .container .s-button:hover{
+    opacity: 80%;
+    transition: 200ms;
+}
+body main .main1 .image .img1{
+    width: 686.25px;
+    height: 488.63px;
+    margin-top: 20% ;
+}
+body main .main2 {
+    text-align: center;
+    background-color: var(--first-color);
+}
+body main .main2 .text1{
+    padding-top: 6%;
+}
+body main .main2 .text11{
+    color:white;
+    font-family: bold-font;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.15rem;
+}
+body main .main2 .text2{
+    margin-top: 1%;
+}
+body main .main2 .text22{
+    color: var(--six-color);
+    font-family: light-font;
+    font-size: 21px;
+    line-height: 35px;
+    letter-spacing: -0.05rem;
+    padding-bottom: 74px;
+}
+body main .main3 {
+    background-color: var(--first-color);
+}
+body main .main3 .workspace{
+    width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 68px;
+
+}
+body main .main3 .workspace .box1{
+    width: 350px;
+    height: 85px;
+    border-radius: 10px;
+    display: flex;
+    background-color: var(--nine-color);
+}
+body main .main3 .workspace .box1 .circle .circle1 {
+padding: 29px 30px 13px 19px;
+}
+body main .main3 .workspace .box1 .text{
+    font-family: light-font;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.66px;
+    line-height: 27px;
+    padding-top: 17px;
+}
+body main .main3 .workspace .box1 .text-id {
+    padding-top: 31px;
+    font-family: light-font;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.66px;
+    line-height: 27px;
+}
+body main .main4 {
+    background-color: var(--first-color);
+    padding: 27px 57px 90px 66px;
+
+}
+body main .main4 .workspace{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    background-color:#212427;
+    border-radius: 10px;
+}
+body main .main4 .workspace .img {
+    padding: 27px 57px 30px 35px;
+}
+body main .main4 .workspace .context .text1 {
+    font-family: bold-font;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.75px;
+    line-height: 36px;
+    color: #fff;
+    padding-top: 55px;
+    padding-bottom: 9px;
+}
+body main .main4 .workspace .context .text2 {
+    font-family: light-font;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: -0.56px;
+    line-height: 28px;
+    color: var(--six-color);
+} 
+body main .main4 .workspace .button,
+body main .main4 .workspace .context,
+body main .main4 .workspace .img{
+    height: 150px;
+}
+body main .main4 .workspace .button .button1{
+    padding: 14px 48px;
+    font-family: light-font;
+    font-size: 20px;
+    letter-spacing: -0.66px;
+    background-color: var(--second-color);
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px #c31a12;
+    font-weight: 700;
+    margin-top: 80px;
+    margin-left: 105px;
+}
+body main .main4 .workspace .button .button1:hover{
+    opacity: 80% ;
+    transition: 300ms;
+}
+body main .main5{
+    background-color: var(--first-color);
+}
+body main .main5 .workspace{
+    width: 1110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    margin: auto;
+}
+body main .main5 .workspace .box1 .text1,
+body main .main5 .workspace .box2 .text1,
+body main .main5 .workspace .box3 .text1{
+    text-align: center;
+    font-family: bold-font;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -1.88px;
+}
+body main .main5 .workspace .box1 .text2,
+body main .main5 .workspace .box2 .text2,
+body main .main5 .workspace .box3 .text2{
+    text-align: center;
+    font-family: light-font;
+    font-size: 21px;
+    font-weight: 300;
+    color: var(--six-color);
+    letter-spacing: -0.66px;
+    line-height: 38px;
+    margin-top: 18px;
+}
+body main .main6{
+    background-color: var(--first-color);
+    padding-top: 100px;
+}
+body main .main6 .workspace{
+    width: 836px;
+    margin: auto;
+}
+body main .main6 .workspace .conteiner1 {
+    display: block;
+    margin: auto;
+}
+body main .main6 .workspace .conteiner2 {
+    font-family: light-font;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: -0.66px;
+    text-align: center;
+    color: var(--six-color);
+    padding-top: 18px;
+    padding-bottom: 123px;
+}
+body main .khat{
+    margin: 0px;
+    padding: 0px;
+}
+body main .main7{
+    background-color: var(--first-color);
+    padding-top: 104px;
+    padding-bottom: 105px;
+}
+body main .main7 .workspace {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+}
+body main .main7 .workspace .conteiner .text1{
+    font-family: bold-font;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -1.88px;
+    line-height: 70px;
+    color: #fff;
+    margin-bottom: 21px;
+}
+body main .main7 .workspace .conteiner .text2{
+    font-family: light-font;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: -0.66px;
+    line-height: 38px;
+    color: var(--six-color);
+    margin-bottom: 39px;
+    margin-right: 40px;
+}
+body main .main7 .workspace .conteiner .button{
+    padding: 14px 48px;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    font-family: light-font;
+    font-size: 21px;
+    font-weight: 500;
+    border:solid 1px #c31a12;
+    letter-spacing: -0.66px;
+    color: #fff;
+}
+body main .main7 .workspace .conteiner .button:hover{
+    opacity: 70%;
+    transition: 200ms;
+}
+
+body main .main7 .workspace .image .img{
+    margin-left: 150px;
+}
+body main .main8 {
+    background-color: var(--fifth-color);
+    padding-top: 114px;
+}
+body main .main8 .workspace{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    gap:130px;
+}
+body main .main8 .workspace .box1 .star,
+body main .main8 .workspace .box2 .star{
+    padding-bottom: 27px;
+}
+
+body main .main8 .workspace .box1 .text1,
+body main .main8 .workspace .box2 .text1{
+    font-family: light-font;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: -0.66px;
+    color: #fff;
+    padding-bottom: 21px;
+}
+body main .main8 .workspace .box1 .text2,
+body main .main8 .workspace .box2 .text2{
+    padding-bottom: 114px;
+    font-family: light-font;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    color: #fff;
+}
+footer .footer{
+    background-color: var(--first-color);
+}
+footer .footer .workspace{
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    gap: 108px ;
+    padding-top: 88px;
+    padding-bottom: 101px;
+
+}
+footer .footer .workspace .box2 .list .tags,
+footer .footer .workspace .box3 .list .tags,
+footer .footer .workspace .box4 .list .tags,
+footer .footer .workspace .box5 .list .tags{
+    text-decoration: none;
+    color: var(--six-color);
+    font-family: light-font;
+    font-size: 16.83px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -0.53px;
+}
+footer .footer .workspace .box5 .list .tags{
+    color: var(--fifth-color);
+}
+footer .footer .workspace .box2 .list .tags:hover,
+footer .footer .workspace .box3 .list .tags:hover,
+footer .footer .workspace .box4 .list .tags:hover,
+footer .footer .workspace .box5 .list .tags:hover{
+    opacity: 70%;
+    transition: 200ms;
+}
+footer .footer .workspace .box2 .list .title-footer,
+footer .footer .workspace .box3 .list .title-footer,
+footer .footer .workspace .box4 .list .title-footer,
+footer .footer .workspace .box5 .list .title-footer{
+    font-family: light-font;
+    font-size:16.83px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.53px;
+    color: #fff;
+    padding-bottom: 16.83px;
+}
+footer .footer .workspace .box1 .text1{
+    font-family: bold-font;
+    font-size: 25.25px;
+    font-weight: 600;
+    letter-spacing: -0.79px;
+    line-height: 38px;
+    color: #fff;
+    padding-bottom: 10.5px;
+}
+footer .footer .workspace .box1 .text2{
+    font-family: light-font;
+    font-size: 16.83px;
+    font-weight: 300;
+    letter-spacing: -0.53px;
+    line-height: 29.5px;
+    color: var(--six-color);
+    margin-bottom: 23px;
+}
+footer .footer .workspace .box1 .icon{
+    display: flex;
+    gap: 10px;
+}
+footer .footer .workspace .box1 .icon .icon1:hover,
+footer .footer .workspace .box1 .icon .icon2:hover{
+    opacity: 70%;
+    transition: 200ms;
+}
