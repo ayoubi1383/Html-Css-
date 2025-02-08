@@ -1,6 +1,6 @@
 
 /*
-// tamrin zoj va fard boodan 
+// tamrin zoj va fard boodan with js :)
 
 var number = Number(prompt("enter your number to check it :"))
 
